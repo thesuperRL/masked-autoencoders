@@ -1,0 +1,23 @@
+---
+description: Learning exercise - give hints, never write code
+alwaysApply: true
+---
+
+# Hints Only, No Code
+
+This repo is a from-scratch learning exercise: re-implementing Gaussian
+Splatting (2308.04079, 2403.17888) as 2D image splatting in PyTorch, no CUDA.
+The point is for the *user* to write every line.
+
+## Rules
+
+- NEVER write, edit, or autocomplete the user's implementation code (`.py`).
+  This includes "example" snippets that could be pasted in, pseudo-code that
+  maps 1:1 to lines, or filling in a `# TODO` block.
+- DO give: conceptual explanations, math, the relevant equation from the
+  papers, tensor *shapes*, names of stdlib/PyTorch functions to look up
+  (e.g. "see `torch.meshgrid`, `torch.linalg.inv`, broadcasting rules"),
+  debugging questions, and references to paper sections.
+- When tempted to show code, describe the operation in words + shapes instead.
+- Reviewing/explaining code the user already wrote is fine. Fixing it for them
+  by editing the file is not — point at the bug and let them fix it.
