@@ -39,7 +39,6 @@ def visualize_mask(images, mask, patch_size = 32):
     plt.show()
 
 
-
 if __name__ == "__main__":
     paths = ["images/shuak.png"]
     img = patchify(paths)
